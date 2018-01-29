@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Our First HTML Page</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	</head>
+
+	<body>
+
+		<header id="header">
+		<div class="container">
+			<a id="my_name" href="index.html">Noa Hershko</a>
+				<nav>
+					<a href="index.html">About</a>
+					<a href="portfolio.html">Portfolio</a>
+					<a href="contact.html">Contact</a>
+				</nav>
+		</div>
+		</header>
+
+		
+		<div id="main-bio" class="container"> 
+			<section class="main-bio">
+
+				<h1>Contact</h1>
+
+				<form id=contact-form>
+					<ul>
+						<li>
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" placeholder="John Smith" required="required">
+						</li>
+						<li>
+							<label for="email">Email</label>
+							<input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+						</li>
+							<label for="message">Message</label>
+							<textarea id="message" name="message" required="required"></textarea>
+						</li>
+						<input type="submit"  id="submit" value="Submit">
+					</ul>
+					
+				</form>
+			</section>
+
+			
+			<section class="contact-info">
+				<div id="contact-info">
+
+					<h2>Connect With Me</h2>
+
+					<img src="assets/images/github_square_black-128.png" class="social" alt="github">
+					<img src="assets/images/linkedin_square_color-128.png" class="social" alt="linkedin">
+					<img src="assets/images/overflow-128.png" class="social" alt="overflow">
+				</div>
+			</section>
+
+		</div>
+
+		<footer id="footer">
+			Copyright &copy; 2018 Noa Hershko
+		</footer>
+		 
+	</body>
+
+</html>
