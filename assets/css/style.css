@@ -209,7 +209,7 @@ nav a:first-child {
   padding: 30px;
 
   margin:0 0 40px 0;
-
+  width: 100%;
   max-width: 590px;
 
   float: left;
@@ -242,6 +242,7 @@ nav a:first-child {
 
 #contact-info {
 
+
   background: #fff;
 
   padding: 30px;
@@ -251,6 +252,7 @@ nav a:first-child {
   border: #ddd solid 1px;
 
   float: right;
+
 
    max-width: 270px;
 
@@ -309,13 +311,8 @@ footer {
 .portf {
 
   width: 274px;
-
-
-
   position: relative;
-
   float: left;
-
   margin: 20px 0px 25px;
 
 }
@@ -440,46 +437,26 @@ textarea {
 
 @media only screen and (max-width: 980px) {
 
-
-
   .container {
-
     padding: 0 20px;
-
     max-width: 768px;
-
   }
-
-
 
   #main-bio {
-
     padding-top: 130px;
-
   }
-
-
 
   .main-bio {
-
     max-width: 380px;
-
   }
-
 
 
  #contact-info {
-
   margin-right: 35px;
-
  }
 
-
-
   .portf {
-
     width: 47%;
-
     margin-bottom: 10px;
 
   }
@@ -526,6 +503,9 @@ textarea {
 
   }
 
+  label{
+    max-width: 380px;
+  }
 
 
   #name,
@@ -550,40 +530,35 @@ nav a {
 }
 
 #header {
-    position-top: absolute;
+    position: absolute;
+    top: -10px;
 }
 
 
-.main-bio {
-    position: relative;
-    float: none;
+#main-bio {
+
     margin-top: 80px;
   max-width: 100%;
   height: auto;
 
 }
 
-#main-bio {
-
+.main-bio {
+  float: left;
   max-width: 90%;
   overflow-height: auto;
   margin-bottom: none;
-
-
+  
 
 }
 
 
 
 #contact-info {
-
-  position: relative;
-
-  max-width: none;
-
-  width: 90%;
-
-  margin: 0 0 40px 20px;
+  float: left;
+  width: 737px;
+  max-width: 90%;
+  margin: 0 0 40px 0px;
 
 }
 
@@ -626,6 +601,8 @@ nav a {
     .portf h3 {
 
     width: 88%;
+    width: relative;
+    height: fixed;
 
   }
 
@@ -652,6 +629,7 @@ header.container {
 
 .portf h3 {
   width: 94%;
+  position: absolute;
 }
 
 nav {
